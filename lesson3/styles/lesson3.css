@@ -29,7 +29,9 @@ h2 {
 	padding: .5rem;
 	color: #536878;
 }
-
+nav p{
+	padding: 0px;
+}
 p {
 	padding: .5rem;
 }
