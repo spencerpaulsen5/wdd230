@@ -154,7 +154,7 @@ nav {
 main{
 	grid-template-columns: 1fr 1fr;
 }
-.navigation :nth-child(3){
+.container :nth-child(3){
 	grid-column: 1/3;
 } 
 
