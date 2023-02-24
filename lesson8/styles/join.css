@@ -1,8 +1,35 @@
-body {
-	font-size: 16px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Ubuntu, sans-serif;
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 header,
 footer {
@@ -18,20 +45,18 @@ header,
 nav,
 main,
 footer {
-	max-width: 960px;
+	max-width: 760px;
 	margin: 0 auto;
 }
 
-
-
-
+h1 {
+	font-size: 2rem;
+}
 h2 {
 	padding: .5rem;
 	color: #536878;
 }
-nav p{
-	padding: 0px;
-}
+
 p {
 	padding: .5rem;
 }
@@ -40,10 +65,6 @@ nav {
 	background-color: #36454f;
 	text-align: right;
 	box-shadow: 0 0 30px #333;
-    
-}
-
-nav {
 	display: flex;
 	flex-direction: column;
 }
@@ -66,19 +87,16 @@ nav a:hover {
 	background-color: #708080;
 	color: yellow;
 }
+nav ul li{
+	list-style-type: none;
+}
 
-.container {
+main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 1rem;
-}
-.item{
-	padding: 50px;
-	min-width: 200px;
-	min-height: 450px;
-	border-style: double;
-	border-color: black;
+	justify-content: center;
+	font-size: 0.85rem;
 }
 
 
@@ -94,11 +112,9 @@ header{
 	flex-flow: column;
 }
 
-
 /***********************************************/
 /** Hamburger Menu *****************************/
 /***********************************************/
-
 
 nav {
 	margin: 0 auto;
@@ -126,7 +142,7 @@ nav {
 }
 
 .navigation a.ham::before {
-	content: "⍋ ";
+	content: "||| ";
 }
 
 .navigation a:hover {
@@ -134,46 +150,13 @@ nav {
 	background-color: black;
 }
 
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 .responsive li {
 	display: block;
 }
 
 .responsive a.ham::before {
-	content: "⍒ ";
-}
-
-
-
-
-
-
-
-/***********************************************/
-/** Media Queries for larger views *************/
-/***********************************************/
-
-@media (min-width: 641px) {
-	nav {
-		flex-direction: row;
-        text-align: center;
-		max-width: 980px;
-		margin-top: 10px;
-		display: flex;
-	}
-	/*Need to figure out why this is referencing all of the nav and not just the .ham class*/
-	.navigation li{
-		display: inline-block;
-		margin-left: 5.5em;
-	}
-	.ham{
-		visibility: hidden;
-	}
-	
-
-	
-
-}
-
-@media (min-width: 1008px) {
-
+	content: "❌ ";
 }
