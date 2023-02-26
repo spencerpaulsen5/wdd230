@@ -33,10 +33,9 @@
         </ul>
     </nav>
     <h1>Join Us!</h1>
-        <p>To Join us, please give us a call at 888-888-8888, or leave your name phone number in the box below, and we will contact you as soon as we can.</p>
 
         <div class="container">
-            <form action="php page">
+            <form action="/lesson8/thankyou.html">
             <th>
               <label for="fname">First Name</label>
             </th>
@@ -50,12 +49,66 @@
               <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
             </td>
             <th>
-             <label for="phone">Phone Number</label>
+              <label for="title">Title</label>
             </th>
             <td>
-             <input type="text" id="phone" name="Phone" placeholder="Your Phone Number.." required>
+              <input type="text" minlength="7" id="title" name="yourtitle" [xyz]>
             </td>
-              <input type="submit" value="Submit">
+            <th>
+              <label for="email">Email</label>
+            </th>
+            <td>
+              <input type="email" id="email" name="email" placeholder="Ex. jondoe@gmail.com" required>
+            </td>
+            <th>
+              <label for="phone">Phone Number</label>
+             </th>
+             <td>
+              <input type="tel" id="phone" name="Phone" placeholder="Your Phone Number.." required>
+             </td>
+            <br>
+            <br>
+            <th>
+              <label for="bname">Business Name</label>
+            </th>
+            <td>
+              <input type="text" id="bname" name="bname" required>
+            </td>
+            <th>
+              <label for="nonprofit">Non-Profit Membership</label>
+             <td>
+              <input type="checkbox" id="membership" name="membershiplevel">
+             </td>
+             <label for="gold">Gold Membership</label>
+             <td>
+              <input type="checkbox" id="membership" name="membershiplevel">
+             </td>
+             <br>
+             <br>
+             <label for="sivler">Silver Membership</label>
+             <td>
+              <input type="checkbox" id="membership" name="membershiplevel">
+             </td>
+             <label for="bronze">Bronze Membership</label>
+             <td>
+              <input type="checkbox" id="membership" name="membershiplevel">
+             </td>
+
+             <p>This is where the membership tier information goes. this is where you can find the benefits of each tier level</p>
+            
+             <label for="business description">Brief business description</label>
+             <td>
+              <input type="text" id="description" name="description">
+             </td>
+
+             <label for="timestamp"></label>
+             <td>
+              <input type="hidden" id="datehidden" name="language"
+              action="javaScript:generateDate()">
+             </td>
+
+
+              <input type="submit" value="Submit" href="thankyou.html">
 
             </form>
           </div>
@@ -66,3 +119,11 @@
           </footer>
           </body>
           </html>
+
+
+
+
+
+
+          
+             
