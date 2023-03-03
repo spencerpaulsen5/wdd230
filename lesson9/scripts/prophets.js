@@ -22,19 +22,19 @@ async function getProphetData(url) {
       let p = document.createElement('p');
       let birthplace = document.createElement('p');
       let birthdate = document.createElement('p');
-      let death = document.createElement('p');
+      
 
 
 
 
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${prophet.name} ${prophet.lastname} `;
-      p.textContent = `Birthplace: ${prophet.birthplace} Birthday: ${prophet.birthdate} Death date: ${prophet.death}`;
+      p.textContent = `Birthplace: ${prophet.birthplace} Birthday: ${prophet.birthdate}`;
 
   
       // Build the image portrait by setting all the relevant attribute
       portrait.setAttribute('src', prophet.imageurl);
-      portrait.setAttribute('alt', `Portait of ${prophet.name} ______________`);
+      portrait.setAttribute('alt', `Portait of ${prophet.name}`);
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '340');
       portrait.setAttribute('height', '440');
@@ -44,9 +44,7 @@ async function getProphetData(url) {
       card.appendChild(p);
       card.appendChild(birthplace);
       card.appendChild(birthdate);
-
-      card.appendChild(death);
       card.appendChild(portrait);
       cards.appendChild(card);
-    }) // end of forEach loop
-  }// end of function expression
+    }) 
+  }
