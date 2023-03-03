@@ -1,0 +1,10 @@
+html{
+    margin-left: 10%;
+    max-width: 960px;
+    text-align: center;
+    background-color: gray;
+}
+img{
+    border-style: double;
+    border-color: gold;
+}
