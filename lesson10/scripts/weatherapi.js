@@ -6,7 +6,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Springville&units=imperial&appid=3974bf6757098b0560d877d0739e8692';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=3974bf6757098b0560d877d0739e8692';
 
 async function apiFetch() {
     try {
