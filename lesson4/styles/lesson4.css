@@ -67,16 +67,16 @@ nav a {
 	font-size: 0.9rem;
 }
 
-nav a:hover {
-	background-color: #708080;
-	color: yellow;
-}
 
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr;
 	font-size: 1rem;
+	text-align: center;
+}
+.summary{
+	border-style: groove;
+	border-color: skyblue;
 }
 .item1
 .item2
@@ -91,13 +91,10 @@ nav a:hover {
 	border-style: double;
 	border-color: black;
 }
-.item1 p{
-	margin-left: 20%;
-}
+
 #oldspringville{
 	max-width: 400px;
-		max-height: 300px;
-		margin-left: 25%;
+	max-height: 300px;
 }
 
 
@@ -112,6 +109,7 @@ header{
     display: flex;
 	flex-flow: column;
 }
+
 /***********************************************/
 /** Hamburger Menu *****************************/
 /***********************************************/
@@ -184,7 +182,16 @@ nav {
 
 @media (min-width: 641px) {
 	
-	#oldspringville{
+	.forecastdiv{
+		display: flex;
+		flex-direction: row;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		
+	}
+	.forecastdiv div{
+		margin: 1.75rem;
+	}
 		
 	}
 	nav {
