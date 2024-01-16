@@ -1,28 +1,61 @@
-
+/*This is to make a one column grid, align things to the center, 
+and to make the furthest wide the content will go 960px. Line 3-8 */
 main, header, nav{
     max-width: 960px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
 }
+/*This gets rid of all the bullet points for each respective week
+in the learening activities section. Line 10-12 */
 main li{
     list-style-type: none;
 }
+/*This is to edit the main profile picture on front page. Line 14-24 */
 header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     max-width: 400px;
+    border-style: solid;   
+    border-color: black;
+    border-width: 5px;
+     
 }
+/*This is to change the background color of the website. Line 26-28 */
 body{
     background-color: lightblue;
 }
+/*This is to make the learning activites and information heading have a 
+different background. Line 27-29 */
 .card h3{
     background-color: whitesmoke;
 }
-
+/*This is to add a white border around the learning activities and
+the information section. Line 30-34 */
 .card{
     border-style: double;
     border-color: whitesmoke;
+    border-width: 5px;
 }
+/*This is to make the navigation not so tight together, and to 
+make the text black on the navigation bar. Line 36-39 */
+nav a{
+    padding: 4px;
+    color: black;
+}
+/* From line 39-50 is to make it so the nav does not show a 
+line underneath it after you have visited the site */
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
