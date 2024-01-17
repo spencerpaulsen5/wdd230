@@ -23,9 +23,10 @@ header img{
     border-width: 5px;
      
 }
-/*This is to change the background color of the website. Line 26-28 */
+/*This is to change the background color of the website, and to center content in larger viewport. Line 26-30 */
 body{
     background-color: lightblue;
+    margin-left: 15%;
 }
 /*This is to make the learning activites and information heading have a 
 different background. Line 27-29 */
@@ -54,7 +55,7 @@ a:link {
     text-decoration: none; 
   } 
   a:hover { 
-    text-decoration: none; 
+    color: white; 
   } 
   a:active { 
     text-decoration: none; 
