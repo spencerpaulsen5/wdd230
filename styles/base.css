@@ -1,3 +1,5 @@
+@media screen and (min-width: 1px){
+
 /*This is to make a one column grid, align things to the center, 
 and to make the furthest wide the content will go 960px. Line 3-8 */
 main, header, nav{
@@ -44,6 +46,8 @@ the information section. Line 30-34 */
 /*This is to make the navigation not so tight together, and to 
 make the text black on the navigation bar. Line 36-39 */
 nav a{
+    display: flex;
+    justify-content: center;
     padding: 4px;
     color: black;
 }
@@ -61,3 +65,4 @@ a:link {
   a:active { 
     text-decoration: none; 
   }
+} /* This is closing the media query */
