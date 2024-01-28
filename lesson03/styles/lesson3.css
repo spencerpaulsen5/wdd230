@@ -87,6 +87,10 @@ header{
     display: flex;
 	flex-flow: column;
 }
+main h1 img{
+	max-width: 200px;
+	max-height: 400px;
+}
 
 
 /***********************************************/
