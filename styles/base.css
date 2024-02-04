@@ -149,7 +149,7 @@ body {
 
 .map {
   max-width: 400px;
-}
+  
 
 } /* This is closing the media query */
 @media screen and (min-width: 414px){

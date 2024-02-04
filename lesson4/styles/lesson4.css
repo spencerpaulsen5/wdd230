@@ -1,0 +1,287 @@
+body {
+	font-size: 16px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Ubuntu, sans-serif;
+}
+/*
+This is for the banner
+*/
+.removebanner{
+	display: none;
+}
+
+header,
+footer {
+	background-color: #708080;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+header,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
+nav p{
+	padding: 0px;
+}
+p {
+	padding: .5rem;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: right;
+	box-shadow: 0 0 30px #333;
+    
+}
+
+nav div {
+	flex: 1 1 auto;
+    text-align: center;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+	text-align: center;
+}
+.summary{
+	border-style: groove;
+	border-color: skyblue;
+}
+
+#oldspringville{
+	max-width: 400px;
+	max-height: 300px;
+}
+
+
+header{
+    display: flex;
+	flex-flow: wrap;
+}
+/***********************************************/
+/** Hamburger Menu *****************************/
+/***********************************************/
+
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "⍋ ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "⍒ ";
+}
+
+
+#art{
+	max-width: 350px;
+}
+#weather{
+	max-width: 350px;
+}
+#tank{
+	max-width: 350px;
+}
+#reams{
+	max-width: 350px;
+}
+#baer{
+	max-width: 350px;
+}
+
+
+
+
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 641px) {
+	.summary{
+		max-width: 673px;
+		margin-left: 115px;
+		margin-top: 10px;
+	}
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left:50px;
+		margin-right: 50px;
+	}
+	/*This is making the 5 day weather show horizontal. I can't use grid so I am editing the section notated under this section to place this in the correct spot*/
+	.forecastdiv{
+		display: flex;
+		flex-direction: row;
+		margin-left: 50px;
+	}
+	.forecastdiv div{
+		margin: 1.75rem;
+	}
+	/*This is what I am editing to try and get the horizontal weather forcast to be in the top middle*/
+	/*old springville image*/
+	.item1{
+		grid-row-start: 2;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 300px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+		margin-top: 10px;
+		
+	}
+	/*springville art museum image*/
+	.item2{
+		grid-row-start: 2;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 400px;
+		margin-left: 500px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+		margin-top: 10px;
+	}
+	.item4{
+		grid-row-start: 3;
+		grid-column-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 400px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+		margin-top: 10px;
+	}
+	.item5{
+		grid-row-start: 3;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 300px;
+		margin-left: 500px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+		margin-top: 10px;
+	}
+	.item6{
+		grid-row-start: 4;
+		grid-row-end: 4;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 300px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+		margin-top: 10px;
+	}
+	.item7{
+		grid-row-start: 4;
+		grid-row-end: 4;
+		grid-column-start: 1;
+		grid-column-end: 1;
+		max-width: 400px;
+		margin-left: 500px;
+		margin-top: 10px;
+		/*This is to test the size of the columns*/
+		border-style: double;
+		border-color: black;
+	}
+	
+		
+	}
+	nav {
+		
+        text-align: center;
+		max-width: 980px;
+		margin-top: 10px;
+		
+	}
+	/*Need to figure out why this is referencing all of the nav and not just the .ham class*/
+	.navigation li{
+		display: block;
+		margin-left: 5.5em;
+	}
+	.ham{
+		visibility:  none;
+	}
+	
+
+
+@media (min-width: 1008px) { 
+	
+	
+	main{
+		grid-template-columns: 1fr 1fr 1fr;
+  		text-align: center;
+  		color: black;
+	}
+
+	
+}
+
