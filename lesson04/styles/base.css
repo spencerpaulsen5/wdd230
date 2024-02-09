@@ -1,0 +1,7 @@
+nav li{
+    padding: 2px;
+    margin: 1em;
+    border: solid;
+    list-style-type: none;
+    text-align: center;
+}
