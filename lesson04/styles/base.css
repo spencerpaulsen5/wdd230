@@ -1,4 +1,6 @@
-nav{
+@media only screen and (max-width:600px) {
+/*Navigation */
+  nav{
     padding: 2px;
     margin: none;
     border: solid;
@@ -6,6 +8,23 @@ nav{
     text-align: center;
     background-color: black;
     text-decoration: dotted;
+}
+
+main{
+  display: flex;
+  margin: auto;
+}
+/*The border is to tell where each section ends and begins. It is temperary */
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7{
+  border: pink;
+  border-style: double;
+  text-align: center;
 }
 
 /***** Hamburger Menu *****/
@@ -160,3 +179,5 @@ nav{
   }
 
   /* End of Hamburger Menu */
+/*This closes the media query*/
+}
