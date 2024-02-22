@@ -14,6 +14,7 @@ main{
   display: flex;
   margin: auto;
 }
+
 /*The border is to tell where each section ends and begins. It is temperary */
 .item1,
 .item2,
@@ -26,7 +27,11 @@ main{
   border-style: double;
   text-align: center;
 }
-
+/*This is to make the picture of city hall smaller */
+#civic-center{
+  max-width: 440px;
+  height: auto;
+}
 /***** Hamburger Menu *****/
 
 * {
@@ -67,7 +72,7 @@ main{
   
   .navbar .nav-container a {
     text-decoration: none;
-    color: #0e2431;
+    color: white;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 0.7rem;
