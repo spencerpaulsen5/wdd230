@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/lazy.css">
+    
+    <meta name="description" content="This is a webpage to demonstrate the principle of lazy loading images">
+    <title>Lazy Loading WDD230</title>
+</head>
+<body>
+    <main>
+        <h1>Lazy Loading Images</h1>
+        <picture><img src="https://placehold.co/300x400/black/white/?text=Place+Holder" data-src="https://loremflickr.com/320/240" alt="kitten"></picture>
+        <picture><img src="https://placehold.co/300x400/black/white/?text=Place+Holder" data-src="https://loremflickr.com/320/240/dog" alt="dog"></picture>
+        <picture><img src="https://placehold.co/300x400/black/white/?text=Place+Holder" data-src="https://loremflickr.com/g/320/240/paris" alt="Picture matching the keyword Paris"></picture>
+        <picture><img src="https://placehold.co/300x400/black/white/?text=Place+Holder" data-src="https://loremflickr.com/320/240/paris,girl/all" alt="Picture matching keyword Brazil or Rio"></picture>
+        <picture><img src="https://placehold.co/300x400/black/white/?text=Place+Holder" data-src="https://loremflickr.com/g/320/240/paris,girl/all" alt="Picture matching the keyword Paris and girl"></picture>
+    </main>
+</body>
+<script src="scripts/lazy.js"></script>
+</html>
