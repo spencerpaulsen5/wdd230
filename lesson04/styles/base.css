@@ -28,7 +28,7 @@ main{
   text-align: center;
 }
 /*This is to make the picture of city hall smaller */
-#civic-center{
+.civic-center{
   max-width: 440px;
   height: auto;
 }
