@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Cherrington",
+        "Address": "746 E 1910 S suite 3 Provo, Ut",
+        "phone number": "801-223-9989",
+        "membership level": "3"
+    },
+    {
+        "name": "Zubs",
+        "Address": "520 North Main Street",
+        "phone number": "801-489-9484",
+        "membership level": "3"
+    },
+    {
+        "name": "Day Glass",
+        "Address": "52 W 600 N",
+        "phone number": "801-515-6948",
+        "membership level": "4"
+    },
+    {
+        "name": "Pier 49 Pizza",
+        "Address": "296 S Main St.",
+        "phone number": "801-602-1426",
+        "membership level": "5"
+    },
+    {
+        "name": "Alta Bank",
+        "Address": "885 North Main st.",
+        "phone number": "801-491-0900",
+        "membership level": "3"
+    },
+    {
+        "name": "Reams",
+        "Address": "759 E 400 S",
+        "phone number": "801-489-0345",
+        "membership level": "3"
+    },
+    {
+        "name": "Luxury Homes",
+        "Address": "220 S 2000 W",
+        "phone number": "801-489-9404",
+        "membership level": "2"
+    },
+    {
+        "name": "Harward Farms",
+        "Address": "1988 W Center St.",
+        "phone number": "801-658-6995",
+        "membership level": "2"
+    },
+    {
+        "name": "Wiggy Wash",
+        "Address": "1662 W 500 S",
+        "phone number": "801-704-5046",
+        "membership level": "1"
+    },
+    {
+        "name": "Zions Bank",
+        "Address": "759 S 400 S",
+        "phone number": "385-685-7043",
+        "membership level": "5"
+    }
+    
+]
