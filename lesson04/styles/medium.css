@@ -1,4 +1,5 @@
 @media only screen and (min-width:601px) {
+    /* Lines 3-29 is for the navigation bar */
     nav{
        background-color: black;
        padding: 10px 0;
@@ -26,14 +27,21 @@
         background-color: white;
         color: black;
     }
+    .item2 h3{
+        text-align: center;
+    }
+    
 
-    
-    
-    
-    
-    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .civic-center{
         max-width:80%;
         height: auto;
+    }
+    .forecastdiv{
+        grid-column: 1/2;
+        background-color: pink;
     }
 } 

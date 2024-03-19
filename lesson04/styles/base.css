@@ -73,8 +73,9 @@ main{
   .navbar .nav-container a {
     text-decoration: none;
     color: white;
+    text-decoration: wavy;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 0.7rem;
   }
   
