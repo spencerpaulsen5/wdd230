@@ -30,18 +30,22 @@
     .item2 h3{
         text-align: center;
     }
-    
-
-    .container{
+    /*This gets rid of the extra checkbox */
+    .checkbox{
+        display: none;
+    }
+    /* The following code is trying to make the grid layout */
+    main .container{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .civic-center{
         max-width:80%;
         height: auto;
+        grid-column: span 2;
     }
     .forecastdiv{
-        grid-column: 1/2;
+        grid-row: 2/3;
         background-color: pink;
     }
 } 
