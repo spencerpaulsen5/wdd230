@@ -11,7 +11,8 @@
 }
 
 main{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   margin: auto;
 }
 
@@ -30,6 +31,8 @@ main{
 /*This is to make the picture of city hall smaller */
 .civic-center{
   max-width: 440px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: auto;
 }
 /***** Hamburger Menu *****/

@@ -4,6 +4,9 @@
        background-color: black;
        padding: 10px 0;
     }
+    nav li{
+        margin-left: 5%;
+    }
     ul{
         list-style-type: none;
         margin: 0;
@@ -40,12 +43,15 @@
         grid-template-columns: 1fr 1fr;
     }
     .civic-center{
-        max-width:80%;
+        max-width: 500px;
+        max-width: auto;
         height: auto;
-        grid-column: span 2;
+        margin-left: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .forecastdiv{
         grid-row: 2/3;
         background-color: pink;
     }
-} 
+}
