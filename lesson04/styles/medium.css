@@ -15,7 +15,9 @@
     }
     li{
         display: inline-block;
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
     }
     li:last-child{
         margin-right: 0;
@@ -25,12 +27,16 @@
         text-decoration: none;
         font-size: 18px;
         padding: 10px 20px;
+        margin-left: 40%;
     }
     a:hover{
         background-color: white;
         color: black;
     }
     .item2 h3{
+        text-align: center;
+    }
+    .item2 p{
         text-align: center;
     }
     /*This gets rid of the extra checkbox */
@@ -43,15 +49,22 @@
         grid-template-columns: 1fr 1fr;
     }
     .civic-center{
-        max-width: 500px;
-        max-width: auto;
-        height: auto;
-        margin-left: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px ;
+    }
+    .kranky{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .forecastdiv{
-        grid-row: 2/3;
-        background-color: pink;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
