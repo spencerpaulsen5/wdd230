@@ -35,6 +35,9 @@ main{
   margin-bottom: 20px;
   height: auto;
 }
+.kranky{
+  max-width: 440px;
+}
 /***** Hamburger Menu *****/
 
 * {
