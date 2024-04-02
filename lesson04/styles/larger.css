@@ -18,4 +18,9 @@
     .checkbox{
         display: none;
     }
+    #discoverimages{
+        width: 300px;
+        padding: 10px;
+        
+      }
 } 

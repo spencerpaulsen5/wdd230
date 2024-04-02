@@ -67,4 +67,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+    #discoverimages{
+        width: 300px;
+        padding: 10px;
+        
+      }
 }
