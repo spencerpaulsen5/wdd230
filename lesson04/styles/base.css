@@ -24,7 +24,7 @@ main{
 .item5,
 .item6,
 .item7{
-  border: pink;
+  border: black;
   border-style: double;
   text-align: center;
 }
