@@ -14,3 +14,61 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  html{
+    background-color: lightblue;
+  }
+  body{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    min-width: 450px;
+  }
+  /*This is for the navigation from lines 27-51*/
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+button{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+picture img{
+  max-width: 450px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+  .spencerandtony{
+    margin-left: 15px;
+    
+    padding: 10px;
+  }
+.scooter{
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
