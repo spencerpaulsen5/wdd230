@@ -73,7 +73,9 @@ li a:hover {
   padding: 0 20px 20px;
   position:relative;
 }
-
+body h1{
+  text-align: center;
+}
 .summary{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -87,4 +89,33 @@ li a:hover {
 }
 .forecastdiv p{
   padding: 10px;
+}
+h2{
+  text-align: center;
+}
+
+@media screen and (min-width: 1400px){
+
+.picturegroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.maps{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 300px;
+  padding: 20px;
+}
+.containers img{
+  margin-left: 180px;
+}
+nav ul li{
+  margin-left: 50px;
+}
+button{
+  margin-left: 280px;
+}
+.spencerandtony{
+  margin-left: 200px;
+}
 }
