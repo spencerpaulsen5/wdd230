@@ -67,8 +67,24 @@ li a:hover {
     
     padding: 10px;
   }
-.scooter{
-  max-width: 100px;
-  margin: 0 auto;
-  padding: 0 20px;
+.scooter, .bottomphotos{
+  max-width: 350px;
+  margin: 20px 7%;
+  padding: 0 20px 20px;
+  position:relative;
+}
+
+.summary{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.summary p{
+  padding: 10px;
+}
+.forecastdiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.forecastdiv p{
+  padding: 10px;
 }
